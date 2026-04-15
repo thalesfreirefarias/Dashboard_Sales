@@ -27,11 +27,12 @@ Revenue by Continent
   <tr>
     <td align="center">
       <a href="#" title="Age">
-        <img src="2" width="1000" alt="Sales"/><br>
+        <img src="1.png" width="1000" alt="Sales"/><br>
       </a>
     </td>
   </tr>
 </table>
+
 ```
 Codes 
 :AnoMes = FORMAT('Planilha1'[Data da Venda], "YYYY-MM")
@@ -43,7 +44,6 @@ MONTH('Planilha1'[Data da Venda])
 Mes = FORMAT('Planilha1'[Data da Venda], "MMM")
 MesNum = MONTH('Planilha1'[Data da Venda])
 ```
----
 
 
 ## Manufactor
@@ -63,7 +63,9 @@ Approved / Rejected Parts
     </td>
   </tr>
 </table>
-```Code:
+
+```
+Code:
 worked_hours = sum('BaseProdução'[Total Horas]) 
 hours_produced = CALCULATE(SUM('BaseProdução'[Total Horas]),'BaseProdução'[Ocorrência]=blank()) 
 ```
