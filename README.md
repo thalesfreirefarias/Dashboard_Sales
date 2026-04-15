@@ -11,13 +11,14 @@ Power BI Sales Dashboard
 
 ## 📌 Project Overview
 
-This project explores some Power BI tool to show differents ways to show information.(Sales, manufactor etc)
+Power BI dashboards focused on **sales analysis** , **manufacturing productivity** and **HR**, showcasing data modeling, DAX calculations, and data visualization best practices.
+
 
 ---
 
 ## Sales
 
-This first Power Bi shows :
+This first Power Bi presents :
 Revenue by Brand
 Revenue and Sales Quantity by Month
 Revenue by Continent
@@ -48,7 +49,7 @@ MesNum = MONTH('Planilha1'[Data da Venda])
 
 ## Manufactor
 
-The second one show:
+The second one focuses on:
 Productivity
 Produced Items
 Total Hours Worked
