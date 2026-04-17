@@ -122,6 +122,7 @@ Turnover = BaseFuncionarios[func.desligadas]/[contratações]
 Pix Transactions (% and Value)
 Number of Transactions
 Gender Distribution (%)
+Company profit
 
 <table>
   <tr>
