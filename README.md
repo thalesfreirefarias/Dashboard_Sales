@@ -59,7 +59,7 @@ Approved / Rejected Parts
   <tr>
     <td align="center">
       <a href="#" title="Age">
-        <img src="2.png" width="1000" alt="Manufactor"/><br>
+        <img src="imagens/2.png" width="1000" alt="Manufactor"/><br>
       </a>
     </td>
   </tr>
@@ -72,6 +72,50 @@ hours_produced = CALCULATE(SUM('BaseProdução'[Total Horas]),'BaseProdução'[O
 ```
 ---
 
+## HR
+
+The Third one focuses on:
+Number of Active Employees
+Number of Hires
+Number of Employees Terminated
+Salary Analysis
+Role and Department Analysis
+Gender Distribution (%)
+
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#" title="Age">
+        <img src="imagens/3.png" width="1000" alt="Manufactor"/><br>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#" title="Age">
+        <img src="imagens/4.png" width="1000" alt="Manufactor"/><br>
+      </a>
+    </td>
+  </tr>
+</table>
+
+```
+Code:
+
+Fun.ativos = 
+CALCULATE(
+    COUNTROWS(BaseFuncionarios),
+    ISBLANK(BaseFuncionarios[Data de Demissao])
+)
+
+func.desligadas = COUNT(BaseFuncionarios[Data de Demissao])
+Turnover = BaseFuncionarios[func.desligadas]/[contratações]
+```
+---
 
 ---
 
