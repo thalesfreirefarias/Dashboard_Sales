@@ -28,7 +28,7 @@ Revenue by Continent
   <tr>
     <td align="center">
       <a href="#" title="Age">
-        <img src="1.png" width="1000" alt="Sales"/><br>
+        <img src="imagens/1.png" width="1000" alt="Sales"/><br>
       </a>
     </td>
   </tr>
