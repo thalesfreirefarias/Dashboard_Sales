@@ -117,6 +117,28 @@ Turnover = BaseFuncionarios[func.desligadas]/[contratações]
 ```
 ---
 
+## Financial
+
+Pix Transactions (% and Value)
+Number of Transactions
+Gender Distribution (%)
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#" title="Age">
+        <img src="imagens/5.png" width="1000" alt="Manufactor"/><br>
+      </a>
+    </td>
+  </tr>
+</table>
+
+```
+Code:
+Pagamentos = -CALCULATE(SUM(Financeiro[Valor da Movimentação]),Financeiro[Tipo]="Pagamento")
+imposto = [Recebimentos] * 0.15
+```
+
 ---
 
 ## 🛠️ Technologies Used
